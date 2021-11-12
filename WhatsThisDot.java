@@ -2,7 +2,8 @@ public class WhatsThisDot
 {
     public static void main(String[] args) {
         MavDate mavdate = new MavDate(3,14,2002);
-        System.out.println(mavdate.toString());
+        mavdate.dayOfWeek = "Thursday";
+        System.out.println(mavdate.dayOfWeek + ", " + mavdate.toString());
         mavdate.addDaysToDate(25);
         System.out.println(mavdate.toString());
         MavDate cen = new MavDate(3);
