@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MavDate
+comment0.text=\n\ Write\ a\ description\ of\ class\ MavDate\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=month\ day\ year
+comment1.target=MavDate(int,\ int,\ int)
+comment2.params=century
+comment2.target=MavDate(int)
+comment3.params=
+comment3.target=int\ getCentury()
+comment4.params=
+comment4.target=int\ getDaysInMonth()
+comment5.params=
+comment5.target=java.lang.String\ getMonth()
+comment6.params=amtDays
+comment6.target=void\ addDaysToDate(int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
